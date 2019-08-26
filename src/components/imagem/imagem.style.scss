@@ -1,0 +1,34 @@
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    .circle{
+        border: black 2px solid;
+        border-radius: 50%;
+        width: 230px;
+        height: 230px;
+        margin: 5px 0;
+        position: relative;
+        //esconder e conter na borda
+        overflow: hidden;
+      
+        .imagem{
+          width: 100%;
+          height: 100%;
+          background-position: center;
+          background-size: cover;
+        }
+    }
+
+    .formas-contato{
+        display: flex;
+        flex-direction: row;
+
+        .logos{
+          /*   width: 32px;
+            height: 32px; */
+        }
+    }
+}
