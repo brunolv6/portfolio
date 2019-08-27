@@ -1,8 +1,9 @@
 /* $cor1: rgb(211, 209, 209);
-$cor2: rgb(45, 85, 55); */
+$cor2: rgb(45, 85, 55); rgb(55, 84, 110); */
 
 $cor1: rgb(253, 252, 252);
-$cor2: rgb(55, 84, 110);
+$cor2: rgb(45, 85, 55);
+$cor3: rgb(0, 0, 0);
 
 .apresentacao{
     background-color: $cor1;
@@ -93,4 +94,35 @@ $cor2: rgb(55, 84, 110);
   border-width: 4vw 0 0 97vw;
   //se (1) ativo, vai em ordem de mais em cima para mais embaixo
   border-color: $cor2 $cor1;
-}
+}  
+  .teste2{
+    width: 100%;
+  /*   height: 400px; */
+    background-color:  $cor1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  
+    .jobsearch{
+/*       background-color: red; */
+      width: 50vw;
+      height: auto;
+      padding: 0px 0px 0px 0px;
+    }
+  }
+  .gradient3 {
+    /*   width: 0;
+      height: 0; */
+      //de que HAVERÁ uma borda
+      border-style: solid;
+      //border-width: o quão inclinado, até onde vai
+      border-width: 1vw 97vw 0 0;
+      border-color:  $cor1 $cor1;
+    }
+
+    .footer{
+      background-color: $cor3;
+      height: 100px;
+      width: 100%;
+    }

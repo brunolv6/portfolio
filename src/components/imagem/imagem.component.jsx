@@ -6,6 +6,7 @@ import foto from '../../assets/eu1.jpg';
 import github from '../../assets/github.svg';
 import linkedin from '../../assets/linkedin.svg';
 import ecommerce from '../../assets/ecommerce.png';
+import jobSearch from '../../assets/job.png';
 
 const Imagem = props => {
     return (
@@ -31,6 +32,11 @@ const Imagem = props => {
                     <img className='ecommerce' src={ecommerce} alt='projeto1' />
             </div>
             <div className='gradient2'></div>
+            <div className='teste2'>
+                    <img className='jobsearch' src={jobSearch} alt='projeto1' />
+            </div>
+            <div className='gradient3'></div>
+            <div className='footer'></div>
         </div>
     );
 };
