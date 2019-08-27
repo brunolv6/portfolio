@@ -1,5 +1,11 @@
+/* $cor1: rgb(211, 209, 209);
+$cor2: rgb(45, 85, 55); */
+
+$cor1: rgb(253, 252, 252);
+$cor2: rgb(55, 84, 110);
+
 .apresentacao{
-    background-color: rgb(211, 209, 209);
+    background-color: $cor1;
     padding: 5vw 0 2vw 0;
     display: flex;
     flex-direction: column;
@@ -58,13 +64,24 @@
   border-style: solid;
   //border-width: o quão inclinado, até onde vai
   border-width: 4vw 97vw 0 0;
-  border-color:  rgb(211, 209, 209)rgb(45, 85, 55);
+  border-color:  $cor1 $cor2;
 }
 
 .teste{
   width: 100%;
-  height: 400px;
-  background-color:  rgb(45, 85, 55);
+/*   height: 400px; */
+  background-color:  $cor2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  .ecommerce{
+/*     background-color: red; */
+    width: 50vw;
+    height: auto;
+    padding: 30px 50px 0px 10px;
+  }
 }
 
 .gradient2 {
@@ -75,5 +92,5 @@
   //4. afunda direito
   border-width: 4vw 0 0 97vw;
   //se (1) ativo, vai em ordem de mais em cima para mais embaixo
-  border-color: rgb(45, 85, 55)  rgb(211, 209, 209);
+  border-color: $cor2 $cor1;
 }
