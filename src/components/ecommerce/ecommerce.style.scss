@@ -1,0 +1,22 @@
+.ecommerce{
+    display: flex;
+    flex-direction: column;
+    
+    .apresentacao-ecommerce{
+        display: flex;
+        flex-direction:  row;
+        padding: 5vw;
+        /*  background-color: black; */
+    
+        .imagem{
+            width: 60%;
+            height: auto;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .apresentacao-ecommerce{
+            padding: 5vw;       
+        }
+    }
+}
