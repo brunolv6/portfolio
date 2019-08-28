@@ -6,11 +6,10 @@ import { Ecommerce } from '../ecommerce/ecommerce.component'
 
 export const Projetos = () => (
     <div className='projetos'>
-        <div>
-            <div className='gradiente1'></div>
-            <div style={{backgroundColor:'black'}}>
+        <div className='gradiente1'></div>
+        <div style={{backgroundColor:'black'}}>
             <Ecommerce/>
-            </div>
         </div>
+        <div className='gradiente2'></div>
     </div>
 )

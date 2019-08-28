@@ -20,8 +20,23 @@
         justify-content: space-evenly;
         
         .logo{
-            width: 80px;
+            width: 100px;
             height: auto;
+        }
+    }
+
+    a{
+        align-self: center;
+        width: 30%;
+        
+        .botao{
+            width: 100%;
+            margin: 2vw;
+            font-size: 18px;
+            font-weight: bold;
+            border: white solid 2px;
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
         }
     }
 
@@ -33,7 +48,7 @@
         .ferramentas{
 
             .logo{
-                width: 40px;
+                width: 50px;
             }
         }
     }

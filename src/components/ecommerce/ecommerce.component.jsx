@@ -4,12 +4,34 @@ import './ecommerce.style.scss'
 import ecommerceImage from '../../assets/ecommerce.png';
 import herokuLogo from '../../assets/heroku.svg';
 import firebaseLogo from '../../assets/firebase.png';
-import nodeLogo from '../../assets/node.png';
 import stripeLogo from '../../assets/stripe.svg';
 import reduxLogo from '../../assets/redux.png';
 import reactLogo from '../../assets/react.png';
 
 import { Descricao } from '../descricao/descricao.component'
+
+const logos = [
+    {
+        id: 1,
+        logomarca: reactLogo
+    },
+    {
+        id: 2,
+        logomarca: reduxLogo
+    },
+    {
+        id: 3,
+        logomarca: firebaseLogo
+    },
+    {
+        id: 4,
+        logomarca: herokuLogo
+    },
+    {
+        id: 5,
+        logomarca: stripeLogo
+    }
+]
 
 export const Ecommerce = () => (
     <div className='ecommerce'>
@@ -25,48 +47,17 @@ export const Ecommerce = () => (
             />
         </div>
         <div className='ferramentas'>
-        <div>
-            <img 
-                className='logo'
-                src={herokuLogo} 
-                alt='heroku'
-            />
+            {
+                logos.map(logo => (
+                    <img 
+                        key={logo.id}
+                        className='logo'
+                        src={logo.logomarca} 
+                        alt='logo'
+                    />        
+                ))
+            }
         </div>
-        <div>
-            <img 
-                className='logo'
-                src={firebaseLogo} 
-                alt='firebase'
-            />
-        </div>
-        <div>
-            <img 
-                className='logo'
-                src={nodeLogo} 
-                alt='node'
-            />
-        </div>
-        <div>
-            <img 
-                className='logo'
-                src={reduxLogo} 
-                alt='redux'
-            />
-        </div>
-        <div>
-            <img 
-                className='logo'
-                src={reactLogo} 
-                alt='react'
-            />
-        </div>
-        <div>
-            <img 
-                className='logo'
-                src={stripeLogo} 
-                alt='stripe'
-            />
-        </div>
-        </div>
+        <a href='https://bruno-ecommerce-live.herokuapp.com/' rel="noopener noreferrer" target="_blank"><button className='botao'>Entre</button></a>
     </div>
 )
