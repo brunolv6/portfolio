@@ -2,7 +2,7 @@
 $cor2: rgb(45, 85, 55); rgb(55, 84, 110); */
 
 $cor1: rgb(253, 252, 252);
-$cor2: rgb(45, 85, 55);
+$cor2: rgb(167, 168, 168);
 $cor3: rgb(0, 0, 0);
 
 .apresentacao{
@@ -17,9 +17,9 @@ $cor3: rgb(0, 0, 0);
         border: black 2px solid;
         border-radius: 50%;
 /*         width: 30vw; */
-        width: 230px;
+        width: 180px;
 /*         height: 30vw; */
-        height: 230px;
+        height: 180px;
         margin: 5px 0;
         position: relative;
         //esconder e conter na borda
@@ -123,6 +123,6 @@ $cor3: rgb(0, 0, 0);
 
     .footer{
       background-color: $cor3;
-      height: 100px;
+      height: 20vw;
       width: 100%;
     }

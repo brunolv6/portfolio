@@ -1,0 +1,17 @@
+.links{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+
+    .links-item{
+        width: 30px;
+        height: auto;
+        margin: 0 3px;
+    }
+
+    @media screen and (max-width: 500px) {
+        .links-item{
+            width: 20px;
+        }
+    }
+}
