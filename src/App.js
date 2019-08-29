@@ -5,12 +5,14 @@ import './App.css';
 
 import { Apresentacao } from './components/apresentacao/apresentacao.component';
 import { Projetos } from './components/projetos/projetos.component'
+import { Footer } from './components/footer/footer.component';
 
 function App() {
   return (
     <div className='app'>
       <Apresentacao/>
       <Projetos/>
+      <Footer/>
     </div>
   );
 }
