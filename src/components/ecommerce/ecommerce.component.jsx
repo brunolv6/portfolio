@@ -36,7 +36,8 @@ const logos = [
 export const Ecommerce = () => (
     <div className='ecommerce'>
         <div className='apresentacao-ecommerce'>
-            <Descricao 
+            <Descricao
+                className='descricao' 
                 nome='Ecommerce' 
                 texto='Projeto pessoal de criação de um ecommerce de moda do layout ao deploy visando um código limpo, claro, organizado e com otima performance'
             />
