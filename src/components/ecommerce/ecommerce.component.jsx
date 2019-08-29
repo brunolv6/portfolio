@@ -3,10 +3,10 @@ import React from 'react';
 import './ecommerce.style.scss'
 import ecommerceImage from '../../assets/ecommerce.png';
 import herokuLogo from '../../assets/heroku.svg';
-import firebaseLogo from '../../assets/firebase.png';
+import firebaseLogo from '../../assets/firebase.svg';
 import stripeLogo from '../../assets/stripe.svg';
-import reduxLogo from '../../assets/redux.png';
-import reactLogo from '../../assets/react.png';
+import reduxLogo from '../../assets/redux.svg';
+import reactLogo from '../../assets/react.svg';
 
 import { Descricao } from '../descricao/descricao.component'
 

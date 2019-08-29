@@ -3,9 +3,9 @@ import React from 'react';
 import './job-search.style.scss';
 import jobSearchImage from '../../assets/job.png';
 import herokuLogo from '../../assets/heroku.svg';
-import reduxLogo from '../../assets/redux.png';
-import reactLogo from '../../assets/react.png';
-import nodeLogo from '../../assets/node.png';
+import reduxLogo from '../../assets/redux.svg';
+import reactLogo from '../../assets/react.svg';
+import nodeLogo from '../../assets/node.svg';
 
 import { Descricao } from '../descricao/descricao.component'
 
