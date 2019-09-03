@@ -13,6 +13,9 @@
     }
 
     .contato{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         color: white;
         border: 2px solid white;
         border-radius: 20px;
@@ -20,6 +23,12 @@
         margin: 5px 0;
         font-weight: bold;
         font-size: 22px;
+        background-color: black;
+        outline: none;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 
     @media screen and (max-width: 500px) {

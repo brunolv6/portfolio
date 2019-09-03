@@ -1,0 +1,37 @@
+.custom-input{
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+    position: relative;
+
+    .input-item{
+        width: 94%;
+        padding: 2px 3%;
+        border: none;
+        border-bottom: 1px solid white;
+        border-radius: 3px;
+        background-color: black;
+        outline: none;
+        color: white;
+        font-size: 16px;
+
+        &:focus ~ .label-item{
+            top: -13px;
+            left: 0px;
+            font-size: 10px;
+        }
+    }
+
+    .label-item{
+        color: white;
+        position: absolute;
+        top: -2px;
+        left: 5px;
+    }
+
+    .preenchido{
+        top: -13px;
+        left: 0px;
+        font-size: 10px;
+    }
+}
